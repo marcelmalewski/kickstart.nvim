@@ -17,6 +17,8 @@ which is very useful when you're not exactly sure of what you're looking for.
 
 In folder `pluins` you can search with grep and find usefull NOTES
 
+TODO
+przenieść wszystkie pluginy do lazyplugins
 --]]
 
 -- [[ Global editor variables ]]
