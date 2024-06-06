@@ -18,7 +18,11 @@ which is very useful when you're not exactly sure of what you're looking for.
 In folder `pluins` you can search with grep and find usefull NOTES
 
 TODO
-przenieść wszystkie pluginy do lazyplugins
+  1. stworzyć lua/plugins.lua dać return {}.
+  2. Użyje wtedy require("lazy").setup("plugins"), typecraft ep 2
+  3. stworzyć folder lua/plugins, tam wrzucić wszystkie pluginy. Teraz te plugin będą się automatycznie ładować.
+  4. sprobować usunąć lua/plugins.lua, ale chyba jest konieczne
+  k
 --]]
 
 -- [[ Global editor variables ]]
