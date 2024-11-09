@@ -1,4 +1,3 @@
--- [[ Setting options ]]
 -- See `:help vim.opt`
 -- NOTE: For more options, you can see `:help option-list`
 
@@ -12,6 +11,12 @@ vim.opt.signcolumn = 'yes'
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.scrolloff = 10
+
+-- Tab as 2 spaces
+--vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
 
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true
@@ -39,5 +44,10 @@ vim.opt.inccommand = 'split'
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
+
+-- Fold settings
+--vim.opt.foldenable = true
+--vim.opt.foldlevelstart = 99
+vim.opt.foldlevel = 0
 
 -- vim: ts=2 sts=2 sw=2 et
