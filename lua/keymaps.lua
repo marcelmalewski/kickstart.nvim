@@ -36,13 +36,13 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- my kemaps
 vim.keymap.set('i', 'jk', '<ESC>', { desc = '[P] Exit insert mode' })
 
-vim.keymap.set('n', '<leader>to', function()
+vim.keymap.set('n', '<leader>tco', function()
   vim.opt.signcolumn = 'yes:1'
-end, { desc = 'Se[t] signcolumn [O]ne' })
+end, { desc = '[T]oggle sign[c]olumn [O]ne' })
 
-vim.keymap.set('n', '<leader>tf', function()
+vim.keymap.set('n', '<leader>tcf', function()
   vim.opt.signcolumn = 'yes:5'
-end, { desc = 'Se[t] signcolumn [F]ive' })
+end, { desc = '[T]oggle sign[c]olumn [F]ive' })
 
 -------------------------------------------------------------------------------
 --                           Folding section
